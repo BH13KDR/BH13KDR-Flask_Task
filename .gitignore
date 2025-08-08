@@ -1,0 +1,20 @@
+# 가상환경
+.venv/
+venv/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+
+# 환경 설정 파일 (직접 생성했을 경우)
+.env
+
+# VSCode 설정 파일
+.vscode/
+
+# OS 별 캐시
+.DS_Store
+Thumbs.db
+
+# 기타 로그
+*.log
