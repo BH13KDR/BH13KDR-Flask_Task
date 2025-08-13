@@ -1,0 +1,5 @@
+MYSQL_HOST: "localhost"
+MYSQL_USER: "root"
+MYSQL_PASSWORD: "oz-password"
+MYSQL_DB: "oz"
+MYSQL_UNIX_SOCKET: "/opt/homebrew/var/mysql/mysql.sock"

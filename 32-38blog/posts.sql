@@ -1,0 +1,8 @@
+USE oz;
+
+CREATE TABLE oz (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
+    content TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
