@@ -15,7 +15,7 @@ app.config["MYSQL_UNIX_SOCKET"] = db_info["MYSQL_UNIX_SOCKET"]
 
 mysql = MySQL(app)
 
-# blueprint 설정 및 등록
+# blueprint
 app.config["API_TITLE"] = "My API"
 app.config["API_VERSION"] = "v1"
 app.config["OPENAPI_VERSION"] = "3.1.3"
